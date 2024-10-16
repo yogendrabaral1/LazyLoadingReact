@@ -1,0 +1,32 @@
+.dataList {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 12px;
+    column-gap: 12px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.dataListItem {
+    display: flex;
+    list-style-type: none;
+    width: 300px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.dataListItem .title {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.dataListItem p {
+    text-align: left;
+    margin: 0;
+}
+.cardIndicator {
+    background: #d8d8d8;
+    margin-bottom: 16px;
+    padding: 5px 10px;
+}
